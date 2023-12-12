@@ -1,0 +1,80 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    background-color: rgb(249, 246, 243);
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: "Vanitas Regular", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 19.6px;
+    color: rgb(91, 105, 113);
+    font-variant-ligatures: none;
+    height: auto;
+  }
+
+
+  .header {
+  font-family: "Vanitas Regular", serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 2;
+  text-transform: none;
+  font-size: 19.6px;
+  color: rgb(91, 105, 113);
+  background-image: url("https://d3t14gfu9ehll4.cloudfront.net/themes/4a617849-b06e-4601-8856-3e680c8c9033/undefined_LVYv2mE.png");
+  background-position: center top, left top;
+  background-repeat: no-repeat, repeat;
+  background-size: 800px, auto;
+  text-align: center;
+  padding: 100px 0px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .header {
+    background-size: 1600px, auto;
+    padding: 100px 0px 0px;
+
+  }
+}
+
+.topnav {
+    width: 1113px;
+    height: 62px;
+    
+}
+
+.navbar {
+  display: flex;
+  padding: 0;
+  margin: 230px 100px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+
+
+main {
+        margin: 0px auto;
+        max-width: 1170px;
+        box-sizing: border-box;
+}
+
+
